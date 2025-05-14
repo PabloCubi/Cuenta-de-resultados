@@ -1,3 +1,4 @@
+import json
 def cuenta_de_resultados():
     ingresos = []
     gastos = []
@@ -30,8 +31,6 @@ def cuenta_de_resultados():
             print("Opción inválida.")
 
 cuenta_de_resultados()
-
-import json
 
 def guardar_datos(ingresos, gastos):
     with open("datos.json", "w") as f:
