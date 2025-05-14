@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import messagebox
 import json
-
+#cambio en la rama global
 # Declaración de las listas a nivel global
 ingresos = []
 gastos = []
